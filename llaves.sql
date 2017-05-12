@@ -21,13 +21,18 @@ alter table playlist add PRIMARY KEY(idPlaylist);
 
 --LLAVES FORANEAS
 
+alter table artista add FOREIGN KEY(id_genero) REFERENCES genero_musical(idGenero);
+alter table artista add FOREIGN KEY(id_disquera) REFERENCES disquera(idDisquera);
 
+alter table album add FOREIGN KEY(id_artista) REFERENCES artista(idArtista);
 
+alter table album_canciones add FOREIGN KEY(id_album) REFERENCES album(idAlbum);
+alter table album_canciones add FOREIGN KEY(id_canciones) REFERENCES canciones(idCanciones);
 
+alter table top_semanal add FOREIGN KEY(id_caciones_top) REFERENCES canciones(idCanciones);
 
+alter table playlist_canciones add FOREIGN KEY(id_playlist) REFERENCES playlist(idPlaylist);
+alter table playlist_canciones add FOREIGN KEY(id_canciones) REFERENCES canciones(idCanciones);
 
-
-
-ALTER TABLE <tabla donde está la llave primaria> add PRIMARY KEY (campo_de_llave_primaria);
-
-ALTER TABLE <tabla donde está la llave foranea> add FOREIGN KEY (campo_llave_foranea) REFERENCES <tabla_referencia_PK (campo_PK)>
+alter table premios add FOREIGN KEY(id_artista) REFERENCES artista(idArtista);
+alter table premios add FOREIGN KEY(id_album) REFERENCES album(idAlbum);
