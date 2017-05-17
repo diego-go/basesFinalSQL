@@ -1,7 +1,6 @@
 create table disquera(
 	idDisquera integer NOT NULL, --PK
-	nombre varchar(45) NOT NULL,
-	director varchar(45) NOT NULL
+	nombre varchar(45) NOT NULL
 );
 
 create table artista(
@@ -51,4 +50,11 @@ create table playlist(
 create table playlist_canciones(
 	id_playlist integer NOT NULL, --PFK
 	id_canciones integer NOT NULL --PFK
+);
+
+create table premios(
+	idPremios integer NOT NULL,
+	nombre_premio varchar(45) NOT NULL,
+	id_artista integer NOT NULL,
+	id_album integer NOT NULL
 );
