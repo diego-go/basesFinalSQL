@@ -212,8 +212,28 @@ insert into artista (8000, 'Los Caligaris', 'Córdoba, Argentina', 789, 726);
     insert into canciones values (259, 'Cicatriz', '3:29', '★★');
     insert into canciones values (260, 'Entre Vos y Yo', '4:38', '★★★★★');
 
-insert into artista values (9000, 'Los Amigos Invisibles', 'Caracas, Venezuela', 112, 423);
-  insert into album values (9001, 'El Paradise', 2016, 9000);
-    insert into canciones values (261, 'Llegando', '0:23', ' ');
+			insert into artista values (9000, 'Los Amigos Invisibles', 'Caracas, Venezuela', 112, 423);
+			  insert into album values (9001, 'El Paradise', 2016, 9000);
+			    insert into canciones values (261, 'Llegando', '0:23', '★');
+			    insert into canciones values (262, 'Viajero Frecuente del Amor', '4:12', '★★');
+			    insert into canciones values (263, 'Goldmember','0:58', '★');
+			    insert into canciones values (264, 'Eres mis Ganas', '5:16', '★★★');
+			    insert into canciones values (265, 'Dame el Mambo', '3:23', '★★★★');
+			    insert into canciones values (266, 'Maribel...', '0:20', '★');
+			    insert into canciones values (267, 'Anestesiado', '3:45', '★★★★');
+			    insert into canciones values (268, 'Espérame', '4:15', '★★★★★');
+			    insert into canciones values (269, 'Aquí Nadie Está Sano', '3:47', '★★★');
+			    insert into canciones values (270, 'Sabrina', '4:22', '★★');
+			    insert into canciones values (271, 'Sras. Y Sres.', '★★★');
+			    insert into canciones values (272, 'Ten cuidado', '3:43', '★★★★');
+			  insert into album values (9002, 'Los Amigos Invisibles, Acústico',2015, 9000);
+			    insert into canciones values (273, 'Dulce', '4:22', '★★★★');
+			    insert into canciones values (274, 'Sexy', '5:29', '★★★');
+			    insert into canciones values (275, 'Mentiras', '4:24', '★★★★★');
+			    insert into canciones values (276, 'La que me gusta', '5:19', '★★★★★');
+			    insert into canciones values (277, 'Óyeme Nena', '4:21', '★★★★★');
+			    insert into canciones values (278, 'ViviréPara Ti', '3:56', '★★★★★');
+			    insert into canciones values (279, 'Corazón Tatto', '4:49', '★★★★');
 
-insert into artista (15000, 'Alberto Barros', 'Cali, Colombia', 587, 233);
+
+			insert into artista (15000, 'Alberto Barros', 'Cali, Colombia', 587, 233);
