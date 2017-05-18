@@ -7,21 +7,21 @@ insert into disquera values (233, 'Warner Music');
 
 ---------------------------------------------------------------------------------------------------
 
-insert into genero_musical(234,'Pop Soul');
-insert into genero_musical(456,'Cumbia');
-insert into genero_musical(789,'Reggae');
-insert into genero_musical(112,'Acid Jazz');
-insert into genero_musical(134,'Pop');
-insert into genero_musical(453,'Hip hop');
-insert into genero_musical(933, 'Reggaeton');
-insert into genero_musical(587, 'Salsa');
-insert into genero_musical(601, 'Ska');
-insert into genero_musical(354, 'Indie Rock');
+insert into genero_musical values(234,'Pop Soul');
+insert into genero_musical values(456,'Cumbia');
+insert into genero_musical values(789,'Reggae');
+insert into genero_musical values(112,'Acid Jazz');
+insert into genero_musical values(134,'Pop');
+insert into genero_musical values(453,'Hip hop');
+insert into genero_musical values(933, 'Reggaeton');
+insert into genero_musical values(587, 'Salsa');
+insert into genero_musical values(601, 'Ska');
+insert into genero_musical values(354, 'Indie Rock');
 
 ---------------------------------------------------------------------------------------------------
 
 insert into artista values (1000, 'Adan Cruz', 'Ciudad de México ,México', 453, 872);
-	insert into album (1001,'Eso es','2016',1000);
+	insert into album values (1001,'Eso es','2016',1000);
 			insert into canciones values (101,'Eso es','3.40','★★★★');
 			insert into canciones values (102,'Interludio','2.40','★★★★');
 			insert into canciones values (103,'Astronauta de tus Lunares','2.37','★★★★★');
@@ -387,3 +387,105 @@ insert into artista values (15000, 'Jesse & Joy', 'Londres, Inglaterra', 134, 23
 		     insert into canciones values (407, 'Me quiero enamorar', '3:58', '★★★');
 
 ---------------------------------------------------------------------------------------------------
+
+insert into album_canciones values (1001, 101);
+insert into album_canciones values (1001, 102);
+insert into album_canciones values (1001, 103);
+insert into album_canciones values (1001, 104);
+insert into album_canciones values (1001, 105);
+insert into album_canciones values (1001, 106);
+insert into album_canciones values (1001, 107);
+insert into album_canciones values (1001, 108);
+insert into album_canciones values (1001, 109);
+insert into album_canciones values (1001, 110);
+insert into album_canciones values (1001, 111);
+insert into album_canciones values (1001, 112);
+insert into album_canciones values (1001, 113);
+
+insert into album_canciones values (1002, 114);
+insert into album_canciones values (1002, 115);
+insert into album_canciones values (1002, 116);
+insert into album_canciones values (1002, 117);
+insert into album_canciones values (1002, 118);
+insert into album_canciones values (1002, 120);
+insert into album_canciones values (1002, 121);
+insert into album_canciones values (1002, 122);
+insert into album_canciones values (1002, 123);
+insert into album_canciones values (1002, 124);
+insert into album_canciones values (1002, 125);
+insert into album_canciones values (1002, 126);
+insert into album_canciones values (1002, 127);
+insert into album_canciones values (1002, 128);
+insert into album_canciones values (1002, 129);
+insert into album_canciones values (1002, 130);
+insert into album_canciones values (1002, 131);
+insert into album_canciones values (1002, 132);
+insert into album_canciones values (1002, 133);
+insert into album_canciones values (1002, 134);
+insert into album_canciones values (1002, 135);
+
+insert into album_canciones values (2001, 136);
+insert into album_canciones values (2001, 137);
+insert into album_canciones values (2001, 138);
+insert into album_canciones values (2001, 139);
+insert into album_canciones values (2001, 140);
+insert into album_canciones values (2001, 141);
+insert into album_canciones values (2001, 142);
+insert into album_canciones values (2001, 143);
+insert into album_canciones values (2001, 144);
+insert into album_canciones values (2001, 145);
+insert into album_canciones values (2001, 146);
+
+insert into album_canciones values (3001, 147);
+insert into album_canciones values (3001, 148);
+insert into album_canciones values (3001, 149);
+insert into album_canciones values (3001, 150);
+insert into album_canciones values (3001, 151);
+insert into album_canciones values (3001, 152);
+insert into album_canciones values (3001, 153);
+insert into album_canciones values (3001, 154);
+insert into album_canciones values (3001, 155);
+insert into album_canciones values (3001, 156);
+
+insert into album_canciones values (3002, 156);
+insert into album_canciones values (3002, 157);
+insert into album_canciones values (3002, 158);
+insert into album_canciones values (3002, 159);
+insert into album_canciones values (3002, 160);
+insert into album_canciones values (3002, 161);
+insert into album_canciones values (3002, 162);
+insert into album_canciones values (3002, 163);
+insert into album_canciones values (3002, 164);
+insert into album_canciones values (3002, 165);
+insert into album_canciones values (3002, 166);
+insert into album_canciones values (3002, 167);
+insert into album_canciones values (3002, 168);
+
+insert into album_canciones values (4001, 169);
+insert into album_canciones values (4001, 170);
+insert into album_canciones values (4001, 171);
+insert into album_canciones values (4001, 172);
+insert into album_canciones values (4001, 173);
+insert into album_canciones values (4001, 174);
+insert into album_canciones values (4001, 175);
+insert into album_canciones values (4001, 176);
+insert into album_canciones values (4001, 177);
+insert into album_canciones values (4001, 178);
+insert into album_canciones values (4001, 179);
+insert into album_canciones values (4001, 180);
+
+insert into album_canciones values (4002, 181);
+insert into album_canciones values (4002, 182);
+insert into album_canciones values (4002, 183);
+insert into album_canciones values (4002, 184);
+insert into album_canciones values (4002, 185);
+insert into album_canciones values (4002, 186);
+insert into album_canciones values (4002, 187);
+insert into album_canciones values (4002, 188);
+insert into album_canciones values (4002, 189);
+insert into album_canciones values (4002, 190);
+insert into album_canciones values (4002, 191);
+insert into album_canciones values (4002, 192);
+insert into album_canciones values (4002, 193);
+insert into album_canciones values (4002, 194);
+insert into album_canciones values (4002, 195);
