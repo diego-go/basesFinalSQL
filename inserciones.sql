@@ -237,8 +237,23 @@ insert into artista values (9000, 'Los Amigos Invisibles', 'Caracas, Venezuela',
 
 insert into artista values (10000, 'Alberto Barros', 'Cali, Colombia', 587, 233);
 	insert into album values (10001, 'Tributo a la Salsa Colombiana', 2014, 10000);
-	insert into canciones values (280, 'La Palomita', '4:21', '★★★');
-	insert into canciones values (281, 'Medley Fruko', '3:57', '★★★★');
-	insert into canciones values (282, 'La Rebelión', '4:49', '★★★★★');
-	insert into canciones values (283, 'Por Retenerte', '5:25', '★★★★★');
-	insert into canciones values
+	 insert into canciones values (280, 'La Palomita', '4:21', '★★★');
+	 insert into canciones values (281, 'Medley Fruko', '3:57', '★★★★');
+	 insert into canciones values (282, 'La Rebelión', '4:49', '★★★★★');
+	 insert into canciones values (283, 'Por Retenerte', '5:25', '★★★★★');
+	 insert into canciones values (284, 'Oiga, Mire, Vea','5:25', '★★★★');
+	 insert into canciones values (285, 'Ay Amor', '4:15', '★★★');
+	 insert into canciones values (286, 'Pál Bailador', '4:31', '★★★★');
+	 insert into canciones values (287, 'Sobredosis', '4:18', '★★★★★');
+	 insert into canciones values (288, 'Ganas ', '5:34', '★★★★');
+ insert into album values (10002, 'Tributo a la Salsa Colombiana 2',2014, 10000);
+	insert into canciones values (289, 'Sin Sentimiento', '4:52', '★★★★');
+  insert into canciones values (290,'La Cita', '4:38', '★★★');
+	insert into canciones values (291, 'Gracias Amor', '4:43', '★★★');
+	insert into canciones values (292, 'Gotas de Lluvia', '5:44', '★★★★★');
+	insert into canciones values (293, 'Invierno en Primavera', '4:47', '★★★★');
+	insert into canciones values (294, 'En Barranquilla Me Quedo', '5:16', '★★★');
+	insert into canciones values (295, 'Sin mentiras', '5:11', '★★★★');
+	insert into canciones values (296, 'Como Duele', '3:48', '★★★');
+	insert into canciones values (297, 'De Punta a Punta', '4:14', '★★★★★');
+	insert into canciones values (298, 'Descarga Colombiana', '4:39', '★★★');
