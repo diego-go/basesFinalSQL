@@ -17,6 +17,8 @@ insert into genero_musical(601, 'Ska');
 insert into genero_musical(354, 'Indie Rock');
 
 ---------------------------------------------------------------------------------------------------
+--MODIFICAR idCanciones
+
 
 insert into artista (1000, 'Adan Cruz', 'Ciudad de México ,México', 453, 872);
 	insert into album (1001,'Eso es','2016',1000);
@@ -33,8 +35,7 @@ insert into artista (1000, 'Adan Cruz', 'Ciudad de México ,México', 453, 872);
 			insert into Canciones (11,'Una Peta en el Barrio','3.10','4');
 			insert into Canciones (12,'Welcome to México','4.28 min','4');
 			insert into Canciones (13,'Volare','5.45 min','4');
-
-	insert into album (1002,'Quiérelo','2015',1000);
+  insert into album (1002,'Quiérelo','2015',1000);
 			insert into Canciones (01,'Mirame','5.00 min','4');
 			insert into Canciones (02,'We Made a Plan','4.35 min','5');
 			insert into Canciones (03,'Acá en el Norte','3.25 min','5');
@@ -198,13 +199,21 @@ insert into artista (8000, 'Los Caligaris', 'Córdoba, Argentina', 789, 726);
     insert into canciones values (5, 'Mejilla Izquierda', '3:23', '★★★★');
     insert into canciones values (6, 'Añejo W', '4:23', '★★★');
     insert into canciones values (7, 'Luchamos por la Causa', '3:38', '★★★');
+  insert into album values (8002, 'Bailarín Apocalíptico', 2011, 8000);
+    insert into canciones values (1, 'Bailarín Apocalítico', '3:46', '★★★');
+    insert into canciones values (2, 'Razón', '3:16', '★★★★★');
+    insert into canciones values (3, 'El Secreto', '3:28', '★★★★');
+    insert into canciones values (4, 'Vereda', '4:11', '★★★');
+    insert into canciones values (5, 'Pecado de Juventud', '3:02');
+    insert into canciones values (6, 'Rimas Perfectas', '3:12', '★★');
+    insert into canciones values (7, 'Infierno', '3:21', '★★★★');
+    insert into canciones values (8, 'Purgatorio', '1:31', '★★★');
+    insert into canciones values (9, 'Tras las Sierras', '4:32', '★★★★');
+    insert into canciones values (10, 'Cicatriz', '3:29', '★★');
+    insert into canciones values (11, 'Entre Vos y Yo', '4:38', '★★★★★');
 
+insert into artista values (9000, 'Los Amigos Invisibles', 'Caracas, Venezuela', 112, 423);
+  insert into album values (9001, 'El Paradise', 2016, 9000);
+    insert into canciones values (1, 'Llegando', '0:23', ' ');
 
-insert into artista (9000, 'Los Amigos Invisibles', 'Caracas, Venezuela', 112, 'EMI Music');
-insert into artista (10000, 'Disclosure');
-insert into artista (11000, 'Bob Sinclair');
-insert into artista (12000, 'Luis Miguel', 'Ciudad de México, México', 134, 'EMI Music');
-insert into artista (13000, 'Panteón Rococó', 'Ciudad de México, México'. 601, 233);
-insert into artista (14000, 'Snoop Dogg', 'Los Angeles, EUA', 453, 955);
 insert into artista (15000, 'Alberto Barros', 'Cali, Colombia', 587, 233);
-insert into artista (16000, 'Mark Anthony', 'San');
