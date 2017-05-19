@@ -737,7 +737,7 @@ insert into playlist values (20000, "Descubrimiento Semanal", 15, 354);
 	insert into playlist_canciones values(20000, 407);
 	insert into playlist_canciones values(20000, 380);
 
-insert into playlist values (21000, "Café Con Leche", 8, 752);
+insert into playlist values (21000, "Café Con Leche", 9, 752);
 	insert into playlist_canciones values(21000, 352);
 	insert into playlist_canciones values(21000, 360);
 	insert into playlist_canciones values(21000, 353);
@@ -746,6 +746,8 @@ insert into playlist values (21000, "Café Con Leche", 8, 752);
 	insert into playlist_canciones values(21000, 215);
 	insert into playlist_canciones values(21000, 210);
 	insert into playlist_canciones values(21000, 147);
+	insert into playlist_canciones values(22000, 157);
+
 
 insert into playlist values (22000, "Más escuchados", 12, 451);
 	insert into playlist_canciones values(22000, 115);
@@ -784,7 +786,7 @@ insert into playlist values (24000, "Be Bop y más", 8, 451);
 	insert into playlist_canciones values(23000, 361);
 	insert into playlist_canciones values(23000, 395);
 
-insert into playlist values (25000, "En inglés", 8, 451);
+insert into playlist values (25000, "En inglés", 7, 451);
 	insert into playlist_canciones values(25000, 359);
 	insert into playlist_canciones values(25000, 356);
 	insert into playlist_canciones values(25000, 319);
@@ -792,4 +794,3 @@ insert into playlist values (25000, "En inglés", 8, 451);
 	insert into playlist_canciones values(25000, 223);
 	insert into playlist_canciones values(25000, 219);
 	insert into playlist_canciones values(25000, 168);
-	insert into playlist_canciones values(25000, 156);
