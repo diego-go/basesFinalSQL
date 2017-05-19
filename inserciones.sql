@@ -486,6 +486,5 @@ insert into album_canciones values (4002, 189);
 insert into album_canciones values (4002, 190);
 insert into album_canciones values (4002, 191);
 insert into album_canciones values (4002, 192);
-insert into album_canciones values (4002, 193);
 insert into album_canciones values (4002, 194);
 insert into album_canciones values (4002, 195);
