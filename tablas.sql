@@ -19,7 +19,7 @@ create table genero_musical(
 create table album(
 	idAlbum integer NOT NULL, --PK
 	nombre varchar(45) NOT NULL,
-	año integer NOT NULL
+	año integer NOT NULL,
 	id_artista integer NOT NULL --FK
 );
 
@@ -37,14 +37,15 @@ create table album_canciones(
 
 create table top_semanal(
 	idTop integer NOT NULL, --PK
-	fecha date NOT NULL
-	id_canciones_top integer --FK
+	fecha date NOT NULL,
+	id_canciones_top integer NOT NULL --FK
 );
 
 create table playlist(
 	idPlaylist integer NOT NULL, --PK
 	nombre varchar(45) NOT NULL,
-	canciones integer NOT NULL
+	canciones integer NOT NULL,
+	seguidores integer NOT NULL
 );
 
 create table playlist_canciones(
